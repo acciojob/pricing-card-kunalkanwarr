@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Card styling */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Image styling */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Title styling */
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Price styling */
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+/* Description styling */
+.card-description {
+    font-size: 14px;
+    margin: 15px 0;
+    color: #666;
+}
+
+/* Button styling */
+.buy-now-btn {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.buy-now-btn:hover {
+    background-color: #218838;
+}
